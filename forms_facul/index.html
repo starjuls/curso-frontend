@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste acadêmico</title>
+    
+    <style>
+        body{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Informações do aluno:</legend>
+            <label for="aluNome">Nome:</label>
+            <input type="text" id="aluNome" name="aluno">
+            
+            <label for="aluEmail">Email:</label>
+            <input type="email" id="aluEmail" name="email">
+
+            <label for="aluMatricula">Matricula:</label>
+            <input type="text" id="aluMatricula" name="matricula">
+
+            <label for="aluCurso">Curso:</label>
+            <select id="aluCurso" name="curso">
+                <option value="Engenharia de Software">Engenharia de Software</option>
+                <option value="Engenharia da Computação">Engenharia da Computação</option>
+                <option value="Ciencia da Computação">Ciencia da Computação</option>
+                <option value="Análise e desenvolvimento de sistemas">Análise e desenvolvimento de sistemas</option>
+                <option value="Sistemas da Informação">Sistemas da Informação</option>
+            </select>
+
+            <label for="aluTurma">Turma:</label>
+            <input type="text" id="aluTurma" name="turma" style="text-transform: uppercase;">
+
+            <label for="aluDiscplina">Disciplina:</label>
+            <input type="text" id="aluDiscplina" name="disciplina">
+
+            <label for="provaData">Data:</label>
+            <input type="date" id="provaData" name="data">
+        </fieldset>
+        <fieldset>
+            <legend>Questão 01 - 0,6 pts</legend>
+            <p>1. O que significa HTML?</p>
+            <input type="radio" name="q1" id="q1a" value="A">
+            <label for="q1a">A) Hyper Trainer Marking Language</label>
+
+            <input type="radio" name="q1" id="q1b" value="B">
+            <label for="q1b">B) Hyper Text Markup Language</label>
+
+            <input type="radio" name="q1" id="q1c" value="C">
+            <label for="q1c">C) Hyper Text Marketing Language</label>
+
+            <input type="radio" name="q1" id="q1d" value="D">
+            <label for="q1d">D) High Text Machine Language</label>
+
+            <input type="radio" name="q1" id="q1e" value="E">
+            <label for="q1e">E) Hyper Tool Multi Language</label>
+        </fieldset>
+        <fieldset>
+            <legend>Questão 02 - 0,6 pts</legend>
+            <p>2. Qual tag é usada para criar um parágrafo?</p>
+            <input type="radio" name="q2" id="q2a" value="A">
+            <label for="q2a">A) h1</label>
+
+            <input type="radio" name="q2" id="q2b" value="B">
+            <label for="q2b">B) br</label>
+
+            <input type="radio" name="q2" id="q2c" value="C">
+            <label for="q2c">C) p</label>
+
+            <input type="radio" name="q2" id="q2d" value="D">
+            <label for="q2d">D) text</label>
+
+            <input type="radio" name="q2" id="q2e" value="E">
+            <label for="q2e">E) par</label>
+        </fieldset>
+         <fieldset>
+            <legend>Questão 03 - 0,6 pts</legend>
+            <p>3. Qual tag cria um título principal?</p>
+            <input type="radio" name="q3" id="q3a" value="A">
+            <label for="q3a">A) tittle</label>
+
+            <input type="radio" name="q3" id="q3b" value="B">
+            <label for="q3b">B) head</label>
+
+            <input type="radio" name="q3" id="q3c" value="C">
+            <label for="q3c">C) h1</label>
+
+            <input type="radio" name="q3" id="q3d" value="D">
+            <label for="q3d">D) header</label>
+
+            <input type="radio" name="q3" id="q3e" value="E">
+            <label for="q3e">E) top</label>
+        </fieldset>
+        <fieldset>
+            <legend>Questão 04 - 0,6 pts</legend>
+            <p>4. Qual atributo é usado para definir um link?</p>
+            <input type="radio" name="q4" id="q4a" value="A">
+            <label for="q4a">A) src</label>
+
+            <input type="radio" name="q4" id="q4b" value="B">
+            <label for="q4b">B) link</label>
+
+            <input type="radio" name="q4" id="q4c" value="C">
+            <label for="q4c">C) href</label>
+
+            <input type="radio" name="q4" id="q4d" value="D">
+            <label for="q4d">D) url</label>
+
+            <input type="radio" name="q4" id="q4e" value="E">
+            <label for="q4e">E) connect</label>
+        </fieldset>
+        <fieldset>
+            <legend>Questão 05 - 0,6 pts</legend>
+            <p>5. Qual tag é usada para inserir uma imagem?</p>
+            <input type="radio" name="q5" id="q5a" value="A">
+            <label for="q5a">A) src</label>
+
+            <input type="radio" name="q5" id="q5b" value="B">
+            <label for="q5b">B) image</label>
+
+            <input type="radio" name="q5" id="q5c" value="C">
+            <label for="q5c">C) img</label>
+
+            <input type="radio" name="q5" id="q5d" value="D">
+            <label for="q5d">D) pic</label>
+
+            <input type="radio" name="q5" id="q5e" value="E">
+            <label for="q5e">E) photo</label>
+        </fieldset>
+        <fieldset>
+            <legend>Questão 06 - 0,6 pts</legend>
+            <p>6. Onde fica o conteúdo visível da página?</p>
+            <input type="radio" name="q6" id="q6a" value="A">
+            <label for="q6a">A) head</label>
+
+            <input type="radio" name="q6" id="q6b" value="B">
+            <label for="q6b">B) meta</label>
+
+            <input type="radio" name="q6" id="q6c" value="C">
+            <label for="q6c">C) style</label>
+
+            <input type="radio" name="q6" id="q6d" value="D">
+            <label for="q6d">D) body</label>
+
+            <input type="radio" name="q6" id="q6e" value="E">
+            <label for="q6e">E) script</label>
+        </fieldset>
+        <fieldset>
+            <legend>Questão 07 - 0,6 pts</legend>
+            <p>7. Quais são tags estruturais do HTML?</p>
+            <input type="checkbox" name="q7" id="q7a" value="A">
+            <label for="q7a">A) header</label>
+
+            <input type="checkbox" name="q7" id="q7b" value="B">
+            <label for="q7b">B) footer</label>
+
+            <input type="checkbox" name="q7" id="q7c" value="C">
+            <label for="q7c">C) section</label>
+
+            <input type="checkbox" name="q7" id="q7d" value="D">
+            <label for="q7d">D) color</label>
+
+            <input type="checkbox" name="q7" id="q7e" value="E">
+            <label for="q7e">E) font</label>
+        </fieldset>
+        <fieldset>
+            <legend>Questão 08 - 0,6 pts</legend>
+            <p>8. Quais são atributos válidos em HTML?</p>
+            <input type="checkbox" name="q8" id="q8a" value="A">
+            <label for="q8a">A) class</label>
+
+            <input type="checkbox" name="q8" id="q8b" value="B">
+            <label for="q8b">B) id</label>
+
+            <input type="checkbox" name="q8" id="q8c" value="C">
+            <label for="q8c">C) href</label>
+
+            <input type="checkbox" name="q8" id="q8d" value="D">
+            <label for="q8d">D) style</label>
+
+            <input type="checkbox" name="q8" id="q8e" value="E">
+            <label for="q8e">E) link</label>
+        </fieldset>
+        <fieldset>
+            <legend>Questão 09 - 0,6 pts</legend>
+            <p>8. Quais são atributos válidos em HTML?</p>
+            <input type="checkbox" name="q9" id="q9a" value="A">
+            <label for="q9a">A) ul</label>
+
+            <input type="checkbox" name="q9" id="q9b" value="B">
+            <label for="q9b">B) ol</label>
+
+            <input type="checkbox" name="q9" id="q9c" value="C">
+            <label for="q9c">C) li</label>
+
+            <input type="checkbox" name="q9" id="q9d" value="D">
+            <label for="q9d">D) dl</label>
+
+            <input type="checkbox" name="q9" id="q9e" value="E">
+            <label for="q9e">E) link</label>
+        </fieldset>
+        <fieldset>
+            <legend>Questão 10 - 4,0 pts</legend>
+            <p>10. A importância do HTML no desenvolvimento de páginas web.<br>Com base no tema apresentado, escreva um texto dissertativo-argumentativo 
+                explicando o papel do HTML na construção de sites, sua importância para a estrutura das páginas e como ele se 
+                relaciona com outras tecnologias como CSS e JavaScript. Apresente argumentos claros e exemplos para sustentar seu ponto de vista.</p>
+                <textarea name="q10" id="q10t" rows="30" style="width: 100%;" placeholder="Escreva sua redação aqui..."></textarea>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar respostas">
+    </form>
+</body>
+</html>
